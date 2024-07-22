@@ -79,7 +79,7 @@
 }
 \newcommand{\objective}[1]{%
     \begin{flushleft}
-        \textsc{Objective}: #1
+        \textsc{Summary}: #1
     \end{flushleft}
 }
 
