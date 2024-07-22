@@ -28,7 +28,7 @@
     fixobjectivespacing  % Fixes issues with vertical spacing when using QR Code + Objective statement.
 ]{
     \begin{flushleft}
-        \nametitle{\commandkey{firstname}}{\ifcommandkey{middleinitial}{\commandkey{middleinitial} }{}\commandkey{lastname}}
+        \nametitle{\commandkey{firstname}}{\ifcommandkey{middleinitial}{\commandkey{middleinitial}. }{}\commandkey{lastname}}
         {%
             \ifcommandkey{email}%
             {%

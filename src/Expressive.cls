@@ -125,8 +125,19 @@
     \vspace{7pt}
 }
 
+\newcommand{\project}[5]{%
+    \noindent\role{#1}{#2}\par
+    #5
+    \vspace{7pt}
+}
+
 %% ----- Four Required Configurations -----
 \renewcommand{\normalsize}{\fontsize{10pt}{12pt}\selectfont}
 \setlength{\textwidth}{7.5in}
 \setlength{\textheight}{10in}
 \pagenumbering{arabic}
+
+\newcommand{\skills}[1]{%
+    \noindent #1
+    \vspace{7pt}
+}
